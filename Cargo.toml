@@ -1,5 +1,5 @@
 [package]
-name = "rocket"
+name = "product-api"
 version = "0.1.0"
 authors = ["Paul Maddox <paul.maddox@gmail.com>"]
 edition = "2018"
