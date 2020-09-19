@@ -11,7 +11,7 @@ mod products;
 
 #[launch]
 fn rocket() -> rocket::Rocket {
-    let db = DynamoDbClient::new(Region::default());
+    let db = DynamoDbClient::new(Region::ApSoutheast1);
     rocket::ignite()
         .mount("/", routes![index])
         .mount("/products", products::get_routes())
