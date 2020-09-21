@@ -5,7 +5,7 @@ use uuid::Uuid;
 mod routes;
 
 pub fn table_name() -> String {
-    String::from("products")
+    String::from("products-PROD")
 }
 
 #[derive(Debug, Serialize, Deserialize, Item, Clone)]
